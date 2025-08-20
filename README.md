@@ -267,10 +267,6 @@ isort .
 pytest tests/ -v
 ```
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 🙏 Acknowledgments
 
 - [Microsoft AutoGen](https://github.com/microsoft/autogen) for AI agent framework
@@ -278,12 +274,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Chroma](https://www.trychroma.com/) for vector database
 - [FastAPI](https://fastapi.tiangolo.com/) for web framework
 
-## 📞 Support
-
-- **Issues**: [GitHub Issues](https://github.com/your-org/growth-exp-copilot/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/your-org/growth-exp-copilot/discussions)
-- **Documentation**: [Wiki](https://github.com/your-org/growth-exp-copilot/wiki)
 
 ---
 
-**Built with ❤️ for growth teams who want to move fast and test everything.**
+**For growth teams who want to move fast and test everything.**
