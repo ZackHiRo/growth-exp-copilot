@@ -1,0 +1,117 @@
+[
+  {
+    "experiment_key": "checkout_button_color_2023",
+    "hypothesis": "Changing checkout button from blue to green will increase conversion",
+    "primary_metric": {
+      "name": "checkout_conversion_rate",
+      "type": "rate",
+      "event": "checkout_completed"
+    },
+    "variants": ["control", "treatment"],
+    "mde": 0.10,
+    "alpha": 0.05,
+    "power": 0.8,
+    "min_sample_size": 3000,
+    "actual_results": {
+      "control": {"conversions": 480, "total": 5000, "rate": 0.096},
+      "treatment": {"conversions": 520, "total": 5000, "rate": 0.104}
+    },
+    "decision": "ship_treatment",
+    "confidence": 0.96,
+    "final_sample_size": 10000,
+    "actual_improvement": 0.083,
+    "correct_decision": true
+  },
+  {
+    "experiment_key": "pricing_display_2023",
+    "hypothesis": "Showing price with strikethrough will increase perceived value",
+    "primary_metric": {
+      "name": "purchase_rate",
+      "type": "rate",
+      "event": "purchase_completed"
+    },
+    "variants": ["control", "treatment"],
+    "mde": 0.15,
+    "alpha": 0.05,
+    "power": 0.8,
+    "min_sample_size": 2500,
+    "actual_results": {
+      "control": {"conversions": 400, "total": 4000, "rate": 0.100},
+      "treatment": {"conversions": 380, "total": 4000, "rate": 0.095}
+    },
+    "decision": "ship_control",
+    "confidence": 0.92,
+    "final_sample_size": 8000,
+    "actual_improvement": -0.050,
+    "correct_decision": true
+  },
+  {
+    "experiment_key": "form_fields_reduction_2023",
+    "hypothesis": "Reducing signup form from 8 to 5 fields will increase completion",
+    "primary_metric": {
+      "name": "signup_completion_rate",
+      "type": "rate",
+      "event": "signup_completed"
+    },
+    "variants": ["control", "treatment"],
+    "mde": 0.20,
+    "alpha": 0.05,
+    "power": 0.8,
+    "min_sample_size": 2000,
+    "actual_results": {
+      "control": {"conversions": 300, "total": 3000, "rate": 0.100},
+      "treatment": {"conversions": 360, "total": 3000, "rate": 0.120}
+    },
+    "decision": "ship_treatment",
+    "confidence": 0.98,
+    "final_sample_size": 6000,
+    "actual_improvement": 0.200,
+    "correct_decision": true
+  },
+  {
+    "experiment_key": "social_proof_pricing_2023",
+    "hypothesis": "Adding customer reviews to pricing page will increase conversion",
+    "primary_metric": {
+      "name": "pricing_page_conversion",
+      "type": "rate",
+      "event": "plan_selected"
+    },
+    "variants": ["control", "treatment"],
+    "mde": 0.12,
+    "alpha": 0.05,
+    "power": 0.8,
+    "min_sample_size": 3500,
+    "actual_results": {
+      "control": {"conversions": 350, "total": 3500, "rate": 0.100},
+      "treatment": {"conversions": 385, "total": 3500, "rate": 0.110}
+    },
+    "decision": "ship_treatment",
+    "confidence": 0.94,
+    "final_sample_size": 7000,
+    "actual_improvement": 0.100,
+    "correct_decision": true
+  },
+  {
+    "experiment_key": "exit_intent_popup_2023",
+    "hypothesis": "Exit-intent popup with discount will reduce cart abandonment",
+    "primary_metric": {
+      "name": "cart_abandonment_rate",
+      "type": "rate",
+      "event": "cart_abandoned"
+    },
+    "variants": ["control", "treatment"],
+    "mde": 0.18,
+    "alpha": 0.05,
+    "power": 0.8,
+    "min_sample_size": 4000,
+    "actual_results": {
+      "control": {"conversions": 800, "total": 4000, "rate": 0.200},
+      "treatment": {"conversions": 656, "total": 4000, "rate": 0.164}
+    },
+    "decision": "ship_treatment",
+    "confidence": 0.97,
+    "final_sample_size": 8000,
+    "actual_improvement": 0.180,
+    "correct_decision": true
+  }
+]

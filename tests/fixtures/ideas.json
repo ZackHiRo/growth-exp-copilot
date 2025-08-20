@@ -1,0 +1,37 @@
+[
+  {
+    "idea_text": "Increase checkout conversion by adding progress indicator",
+    "requester": "product_manager",
+    "repo": "ecommerce/checkout",
+    "branch": "main",
+    "expected_outcome": "15% increase in checkout completion"
+  },
+  {
+    "idea_text": "Improve signup completion by reducing form fields from 8 to 5",
+    "requester": "growth_team",
+    "repo": "auth/signup",
+    "branch": "main",
+    "expected_outcome": "20% increase in signup completion"
+  },
+  {
+    "idea_text": "Boost engagement by changing CTA button color from blue to green",
+    "requester": "design_team",
+    "repo": "landing/pages",
+    "branch": "main",
+    "expected_outcome": "10% increase in button clicks"
+  },
+  {
+    "idea_text": "Increase revenue by showing social proof on pricing page",
+    "requester": "marketing_team",
+    "repo": "pricing/display",
+    "branch": "main",
+    "expected_outcome": "12% increase in conversion to paid plans"
+  },
+  {
+    "idea_text": "Reduce cart abandonment by adding exit-intent popup with discount",
+    "requester": "growth_team",
+    "repo": "ecommerce/cart",
+    "branch": "main",
+    "expected_outcome": "18% reduction in cart abandonment"
+  }
+]
